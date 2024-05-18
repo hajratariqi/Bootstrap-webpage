@@ -1,0 +1,19 @@
+.row{
+    margin-top: 13%;
+    background: linear-gradient(to bottom, white , plum);
+}
+.content-box > h1{
+    font-size: 3.2vmax;
+    font-weight: bolder;    
+    color: rgb(78, 0, 78);
+
+}   
+.content-box > h1 > span{
+    color:purple;
+}
+.content-box p{
+    font-size: 1.4vmax;
+}
+.content-box button{
+    background: linear-gradient(to right, rgb(173, 23, 173), rgb(56, 56, 246));
+}
