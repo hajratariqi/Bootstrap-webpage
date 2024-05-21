@@ -1,9 +1,12 @@
-.row{
-    margin-top: 13%;
+.container-fluid{
     background: linear-gradient(to bottom, white , plum);
 }
+.row{
+    margin-top: 13%;
+    margin: 7%;
+}
 .content-box > h1{
-    font-size: 3.2vmax;
+    font-size: 3rem;
     font-weight: bolder;    
     color: rgb(78, 0, 78);
 
@@ -12,8 +15,16 @@
     color:purple;
 }
 .content-box p{
-    font-size: 1.4vmax;
+    font-size: 1.4rem;
 }
 .content-box button{
     background: linear-gradient(to right, rgb(173, 23, 173), rgb(56, 56, 246));
+}
+header li{
+    font-size: 1.4rem;
+}
+@media screen and (max-width:500px) {
+    html{
+        font-size: 80%;
+    }
 }
